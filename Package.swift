@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Cmaxminddb",
+    name: "Clibmaxminddb",
     products: [
-        .library(name: "Cmaxminddb", targets: ["Cmaxminddb"]),
+        .library(name: "Clibmaxminddb", targets: ["Clibmaxminddb"]),
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "Cmaxminddb", dependencies: []),
+        .target(name: "Clibmaxminddb", dependencies: []),
     ]
 )
